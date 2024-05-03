@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background: url("background.svg");
+}
+*{
+    font-family: 'Comic Sans MS', 'Comic Sans', Arial;
+    color:white;
+}
+
+.container{
+    background-color: rgba(50,50,50,0.5);
+    max-width: 700px;
+    width:100vw;
+    height:90vh;
+    display:block;
+    margin:auto;
+    margin-top:2vh;
+
+    padding:2vmin;
+    border-radius: 3vmin;
+}
+
+h1{
+    text-align: center;
+    font-size: 5vmin;
+    color:rgb(1, 231, 1)
+}
+
+h2{
+    font-size:3vmin;
+    color:rgb(231, 0, 231);
+}
+
+h3{
+    font-size:2.5vmin;
+}
+
+section{
+    background-color: rgba(50,50,50,0.5);
+    width:95%;
+    display:block;
+    margin:auto;
+    margin-top:2vh;
+
+    padding:2vmin;
+    border-radius: 3vmin;
+}
